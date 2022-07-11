@@ -38,17 +38,17 @@ class JDspider:
 
         # 便利lilist 拿到每一个li 再让li中获取我们想要的数据
         for li in lilist:
-            # print(li)
-            try:
-                item = {}
-                item['price'] = li.find_element(By.XPATH, './/div[@class="p-price"]/strong').text.strip()
-                item['book_name'] = li.find_element(By.XPATH, './/div[@class="p-name"]/a/em').text.strip()
-                item['comment'] = li.find_element(By.XPATH, './/div[@class="p-commit"]/strong').text.strip()
-                item['shop_press'] = li.find_element(By.XPATH, './/div[@class="p-shopnum"]/a').text.strip()
-                print(item)
-            except Exception as e:
-                print(e)
-
+            print(li)
+            # try:
+            #     item = {}
+            #     item['price'] = li.find_element(By.XPATH, './/div[@class="p-price"]/strong').text.strip()
+            #     item['book_name'] = li.find_element(By.XPATH, './/div[@class="p-name"]/a/em').text.strip()
+            #     item['comment'] = li.find_element(By.XPATH, './/div[@class="p-commit"]/strong').text.strip()
+            #     item['shop_press'] = li.find_element(By.XPATH, './/div[@class="p-shopnum"]/a').text.strip()
+            #     print(item)
+            # except Exception as e:
+            #     print(e)
+    #
 
     def next_html(self):
         a=1
