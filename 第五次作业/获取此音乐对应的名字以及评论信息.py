@@ -1,10 +1,3 @@
-"""
-
-提交日期：2022-7-11
-提交人：18期爬虫-05-selenium作业-赵**
-
-"""
-import time
 import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -14,7 +7,6 @@ from selenium.webdriver import ActionChains
 https://music.163.com/#/song?id=399354373
 目标：评论者的网名，与评论
 需要切换iframe
-页面下拉
 鼠标行为连点击下一页
 '''
 

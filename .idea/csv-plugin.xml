@@ -94,6 +94,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\自主练习\北京新发地蔬菜价格查询_数据包版.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
